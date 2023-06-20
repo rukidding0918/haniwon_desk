@@ -1,0 +1,50 @@
+h1, h2, h3, p {
+    font-family: 'Dongle', sans-serif;
+}
+h1 {
+    font-size: 4.5rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+.side-nav {
+    background-color: #17336a;
+}
+
+.side-nav .info-title {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.side-nav .info-content {
+    color: white;
+    margin: 50px 15px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+}
+
+.attention {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3rem;
+}
+.price {
+    text-align: right;
+}
+
+.price .before {
+    color: #ddd;
+    text-decoration: white line-through;
+    text-decoration-thickness: 2px;
+}
+
+.price .after {
+    color: yellow;
+}
+
+.event-close {
+    color: chartreuse;
+}
