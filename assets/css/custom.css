@@ -1,3 +1,6 @@
+.uk-container {
+    padding: 0;
+}
 h1, h2, h3, p {
     font-family: 'Dongle', sans-serif;
 }
@@ -10,6 +13,9 @@ h2 {
 h3 {
     font-size: 5rem;
 }
+p {
+    font-size: 3rem;
+}
 .side-nav {
     background-color: #17336a;
 }
@@ -17,12 +23,12 @@ h3 {
 .side-nav .info-title {
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 .side-nav .info-content {
     color: white;
-    margin: 50px 15px;
+    margin: 30px 15px;
     font-size: 2.5rem;
     line-height: 1.2;
 }
@@ -34,6 +40,7 @@ h3 {
 }
 .price {
     text-align: right;
+    font-size: 3.3rem;
 }
 
 .price .before {
