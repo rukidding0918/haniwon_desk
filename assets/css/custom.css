@@ -2,13 +2,13 @@ h1, h2, h3, p {
     font-family: 'Dongle', sans-serif;
 }
 h1 {
-    font-size: 4.5rem;
+    font-size: 6rem;
 }
 h2 {
-    font-size: 4rem;
+    font-size: 5.5rem;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 .side-nav {
     background-color: #17336a;
@@ -17,12 +17,13 @@ h3 {
 .side-nav .info-title {
     color: white;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 .side-nav .info-content {
     color: white;
     margin: 50px 15px;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     line-height: 1.2;
 }
 
