@@ -1,3 +1,4 @@
 env/
 .idea/
 create_qrcode/
+pose*.*

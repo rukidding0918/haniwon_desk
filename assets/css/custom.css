@@ -56,3 +56,16 @@ p {
 .event-close {
     color: chartreuse;
 }
+
+.prev {
+    margin-top: 100px;
+    margin-left: 800px;
+}
+.next {
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+.dots {
+    margin-top: -65px !important;
+}

@@ -38,23 +38,36 @@
                 </div>
             </div>
 
-            <div class="uk-width-expand main-content" uk-slideshow="animation:slide; autoplay:true; autoplay-interval:4000; raio:false;">
-                <ul class="uk-slideshow-items uk-flex uk-flex-center" uk-height-viewport="min-height: 300">
-                    <li class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
-                        <h1 class="uk-heading-divider">1. 네이버 예약을 이용해주세요.</h1>
-                        <img src="assets/images/booking.svg" alt="네이버 에약" width="800" height="800">
+            <div class="uk-width-expand main-content" uk-slideshow="animation:slide; autoplay:true; autoplay-interval:5000; raio:false;">
 
-                    </li>
-                    <li class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
-                        <h1 class="uk-heading-divider">2. 네이버 영수증 리뷰 부탁드려요.</h1>
-                        <img src="assets/images/review.svg" alt="네이버 리뷰" width="800" height="800">
-                    </li>
-                    <li class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
-                        <h1 class="uk-heading-divider">3. 와이파이 연결하여 사용하세요.</h1>
-                        <img src="assets/images/wifi.svg" alt="한의원 와이파이 연결" width="800" height="800">
-                    </li>
-                </ul>
+
+                    <!--slides-->
+                    <ul class="uk-slideshow-items uk-flex uk-flex-center" uk-height-viewport="min-height: 300">
+                        <li class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
+                            <h1 class="uk-heading-divider">1. 네이버 예약을 이용해주세요.</h1>
+                            <img src="assets/images/booking.svg" alt="네이버 에약" width="800" height="800">
+
+                        </li>
+                        <li class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
+                            <h1 class="uk-heading-divider">2. 네이버 영수증 리뷰 부탁드려요.</h1>
+                            <img src="assets/images/review.svg" alt="네이버 리뷰" width="800" height="800">
+                        </li>
+                        <li class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
+                            <h1 class="uk-heading-divider">3. 와이파이 연결하여 사용하세요.</h1>
+                            <img src="assets/images/wifi.svg" alt="한의원 와이파이 연결" width="800" height="800">
+                        </li>
+                    </ul>
+
+                    <!--navigation-->
+                    <a class="prev uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="next uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                    <!--dots-->
+                    <ul class="dots uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
             </div>
+
+
         </div>
     </div>
 
