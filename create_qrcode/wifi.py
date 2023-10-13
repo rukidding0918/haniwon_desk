@@ -10,4 +10,4 @@ hidden = False
 url = f"WIFI:T:{authentication_type};S:{ssid};P:{password};H:{hidden};;"
 
 qrcode = pyqrcode.create(url)
-qrcode.svg("wifi.svg", scale =8)
+qrcode.svg("../assets/images/wifi.svg", scale =8)

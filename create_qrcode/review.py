@@ -4,4 +4,4 @@ import pyqrcode
 
 url = "https://m.place.naver.com/my/feed"
 qrcode = pyqrcode.create(url)
-qrcode.svg("./assets/images/review.svg", scale =8)
+qrcode.svg("../assets/images/review.svg", scale =8)
